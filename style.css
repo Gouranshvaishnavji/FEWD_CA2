@@ -1,0 +1,127 @@
+*{
+    margin: 0.3vh;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, serif;
+}
+body{
+    background:url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size:cover;
+    background-color: linear-gradient(rgb(83, 165, 236) rgb(174, 141, 206), rgb(89, 14, 180), rgb(236, 83, 96));
+    background-repeat: no-repeat;
+    background-position: center; 
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    overflow: auto;
+    flex-shrink:-1;
+
+}
+h1{
+    font-size: 6vw;
+    color: rgb(241, 114, 210);
+    font-family:'dancing script', cursive, serif;
+    transition: all 0.3s ease;
+    padding: 1vh 2vw;
+    z-index: 1;
+    margin-bottom: 8vh;
+}
+h1:hover{
+    font-family: pacifico;
+    text-shadow: 0px 0.2vw 1px rgb(236, 83, 96) ;
+
+}
+#start-btn{
+    font-size: 4vw;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgb(174, 141, 206);    
+    border-radius: 2rem;
+    transition: all 0.3s ease;
+    z-index: 1;
+    margin: 8vh 2vw;
+    /* font-family: 'Dancing Script', cursive; */
+
+}
+#start-btn:hover{
+    cursor: pointer;
+    background-color: rgb(83, 165, 236);
+    color: rgb(56, 31, 87);
+    box-shadow: 0px 2vh 5rem rgb(174, 141, 206);
+    margin: 8vh  1.5vw;
+    font-weight: bolder;
+}
+#instructions{
+    font-size: 5vw;
+    padding: 1.5vh 2vw;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(174, 141, 206);
+    padding: 1vh 2vw;
+    font-family: 'Dancing Script', cursive;    
+    transition: all 0.6s ease;
+    margin: 8vh 2vw;
+ 
+}
+#instructions:hover{
+    cursor: pointer;
+    background-color: rgb(83, 165, 236);
+    color: rgb(89, 14, 180);
+    box-shadow: 0px 0.4vw 3rem rgb(174, 141, 206);
+    margin: 8vh  1.5vw;
+    font-weight: bolder;
+    transition: 2sec;
+
+}
+footer {
+    text-align: center;
+    padding: 0.1em 0.2vw;
+    background-color: black; /* Background color of the footer */
+    color: white; /* Text color of the footer */
+    /* text-shadow: 0px 0.2vw 0.1rem rgb(98, 110, 121) ; */
+    font-size: 1.5vw;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 15px;
+    opacity: 0.5;
+}
+#hearts{
+    color: red;
+    font-size: 1.5vw
+    
+}
+@media screen and (max-width: 1400px) {
+    body{
+        height: 100vh;
+    }
+    #start-btn{
+        font-size: 6vw;
+        border-radius: 10px;
+    }
+    #instructions{
+        font-size: 6vw;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    body{
+        height: 100vh;
+    }
+    #start-btn{
+        font-size: 8vw;
+        border-radius: 10px;
+    }
+    #instructions{
+        font-size: 8vw;
+    }
+}

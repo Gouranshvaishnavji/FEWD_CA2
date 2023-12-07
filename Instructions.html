@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions/quizerrr!</title>
+    <link rel="stylesheet" href="instruction.css">
+</head>
+<body>
+    <header>
+        <h1>Finding Dora</h1>
+    </header>
+    <section>
+        <p>
+            <h2>Instructions</h2>
+            <br>
+            <br>
+            Dora will pop anywhere on the screen.<br>
+            <br>
+            you need keen eyes to find Doraand her freinds on the screen.  They are hiding between trees and click on them to increase scores .
+            <br>
+            <br>
+            You have 20 seconds to score points.
+            <br>
+            <br>
+            score atleast 4 points to win.
+            <br>
+            <br>
+            Your score will be displayed at the top of the screen.
+            <br>
+            <br>
+            <button id="goodluck">BACK!</button>
+        </p>
+    </section>
+    <audio autoplay loop>
+        <source src="Cute Dora Tone.mp3" type="audio/mp3"> <!-- Replace with your audio file -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+            let play = document.getElementById("goodluck")
+            function gamePage(){
+                location.href = "index.html"
+            }
+            play.addEventListener("click", gamePage)
+    </script>  
+</body>
+</html>
