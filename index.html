@@ -18,6 +18,9 @@
     </header>
     <section>
         <p id="instructions" onclick="myFunction()">Instructions</p>
+        <label for="name">your name:</label>
+        <input type="text" id="name">
+        <button onclick="submitName()" id="n">Submit</button>
     </section>
     <div>
         <button id="start-btn" onclick="gamePage()">PLAY!</button>
@@ -30,17 +33,17 @@
         Your browser does not support the audio element.
     </audio>
     <script >
+    function submitName() {
+      var name = document.getElementById("name").value;
+      localStorage.setItem("user_name", name);
+      };
     function myFunction() {
     // Redirect to another HTML page
-    console.log("rdhtfjg");
     location.href = 'Instructions.html';
-};
-    // document.getElementById("start-btn").addEventListener("click", gamePage());
+    };
     function gamePage() {
-  console.log("rdhtfjg");
-  location.href = "game.html";
-
-};
+    location.href = "game.html";
+    };
     </script>
 </body>
 </html>
