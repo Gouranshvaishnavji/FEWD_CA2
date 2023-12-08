@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Set the image position
         randomImage.style.position = 'absolute';
-        randomImage.style.left = Math.random() * (window.innerWidth - 100) + 'px';
-        randomImage.style.top = Math.random() * (window.innerHeight - 100) + 'px';
+        randomImage.style.left = Math.random() * (window.innerWidth - 80) + 'vw';
+        randomImage.style.top = Math.random() * (window.innerHeight - 80) + 'vh';
 
         // Append the image to the body
         document.body.appendChild(randomImage);
