@@ -11,7 +11,7 @@
 // play.addEventListener("onlick", musicPlay)
 // play.addEventListener("click", musicStop)
 document.addEventListener('DOMContentLoaded', function () {
-    var images = ['Dora.png', 'monkey.png', 'boots-dora.png', 'simba.png','sniper.png'] //image URLs to this array
+    var images = ['./assests/Dora.png', './assests/monkey.png', './assests/boots-dora.png', './assests/simba.png','./assests/sniper.png'] //image URLs to this array
     var clickSound = new Audio('click3.mp3'); // click sound URL
     var score = 0;
     var scoreElement = document.getElementById('score');
