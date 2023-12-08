@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif, serif;
 }
 body{
-    background-image:url('./instruct.jpg');
+    background-image:url('./assests/instruct.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -93,7 +93,7 @@ p h2{
 @media screen and (max-width: 700px) {
     body{
         height: 100vh;
-        background-image: url('./instructions.jpg');
+        background-image: url('./assests/instructions.jpg');
     }
 
     
