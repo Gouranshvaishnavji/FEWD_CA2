@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif, serif;
 }
 body{
-    background-image:url('./dora-score.jpg');
+    background-image:url('./assests/dora-score.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -62,7 +62,7 @@ footer {
 @media screen and (max-width: 800px) {
     body{
         height: 100vh;
-        background-image: url('./score2.png');
+        background-image: url('./assests/score2.png');
     }
     h1{
         font-size: 3rem;
