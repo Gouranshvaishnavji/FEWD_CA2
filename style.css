@@ -99,7 +99,7 @@ footer {
     font-size: 1.5vw
     
 }
-#name{
+#name, #names{
     font-size: 1.5vw;
     padding: 1vh 2vw;
     border-radius: 0.4rem;
