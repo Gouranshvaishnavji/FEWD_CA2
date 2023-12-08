@@ -27,13 +27,19 @@
             finalScoreElement.textContent = finalScore;
 
             // Clear the score from local storage
-            localStorage.removeItem('finalScore');
+            // localStorage.removeItem('finalScore');
         });
         var userName = localStorage.getItem("user_name");
          
         // Display the name on the page
-        document.body.innerHTML += "<p>Hello, " + userName + "!</p>";
-        localStorage.removeItem('user_name');
+        if (localStorage.getItem('finalScore') > 3){
+            document.body.innerHTML += "<p>You have good reflexes, " + userName + "!</p>";
+            localStorage.removeItem('user_name');
+            
+        }else if(localStorage.getItem('finalScore') < 3){
+            document.body.innerHTML += "<p>You have poor reflexes, " + userName + "!</p>";
+            localStorage.removeItem('user_name');
+        }
 
     </script>
 </body>
