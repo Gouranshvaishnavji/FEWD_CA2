@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif, serif;
 }
 body{
-    background-image:url('./bg.jpg');
+    background-image:url('./assests/bg.jpg');
     background-color:green;
     background-size:fill;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ p{
 @media screen and (max-width: 700px) {
     body{
         height: 100vh;
-        background-image: url('./bg2.jpg');
+        background-image: url('./assests/bg2.jpg');
     }
     img{
         max-width: 10rem;
