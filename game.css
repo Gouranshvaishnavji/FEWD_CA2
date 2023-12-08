@@ -6,6 +6,7 @@
 }
 body{
     background-image:url('./bg.jpg');
+    background-color:green;
     background-size:fill;
     background-repeat: no-repeat;
     background-position: center; 
