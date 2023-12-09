@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var images = ['./assests/Dora.png', './assests/monkey.png', './assests/boots-dora.png', './assests/simba.png','./assests/sniper.png',url('https://w7.pngwing.com/pngs/342/170/png-transparent-dora-the-explorer-cartoon-wikia-dora-drawing-s-television-child-hand.png'),url('https://w7.pngwing.com/pngs/920/558/png-transparent-party-child-nick-jr-birthday-party-mammal-child-holidays-thumbnail.png')] //image URLs to this array
+var images = [
+    './assests/Dora.png',
+    './assests/monkey.png',
+    './assests/boots-dora.png',
+    './assests/simba.png',
+    './assests/sniper.png',
+    'https://w7.pngwing.com/pngs/342/170/png-transparent-dora-the-explorer-cartoon-wikia-dora-drawing-s-television-child-hand.png',
+    'https://w7.pngwing.com/pngs/920/558/png-transparent-party-child-nick-jr-birthday-party-mammal-child-holidays-thumbnail.png'
+];
     var clickSound = new Audio('click3.mp3'); // click sound URL
     var score = 0;
     var scoreElement = document.getElementById('score');
