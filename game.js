@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
         randomImage.src = images[randomIndex];
 
         // Setting the image position
-        var maxWidth = window.innerWidth * 0.6; // 60vw
+        var maxWidth = window.innerWidth * 0.8; // 60vw
         var maxHeight = window.innerHeight * 0.7; // 70vh
 
         randomImage.style.position = 'absolute';
