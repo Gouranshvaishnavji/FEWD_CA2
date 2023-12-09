@@ -62,7 +62,7 @@ footer {
 @media screen and (max-width: 800px) {
     body{
         height: 100vh;
-        background-image: url('./assests/score2.png');
+        background-image: url('https://wallpapers.com/images/high/dora-the-explorer-grown-up-lrqt0bjgha9gy2di.webp');
     }
     h1{
         font-size: 3rem;
