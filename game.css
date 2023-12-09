@@ -7,7 +7,7 @@
 body{
     background-image:url('./assests/bg.jpg');
     background-color:green;
-    background-size:fill;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center; 
     text-align: center;
