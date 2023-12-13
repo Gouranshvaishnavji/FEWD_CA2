@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif, serif;
 }
+/* Home page css */
 body{
     background:url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-size:cover;
@@ -21,6 +22,7 @@ body{
     overflow: auto;
 
 }
+/* Finding dora icon */
 h1{
     font-size: 6vw;
     color: rgb(241, 114, 210);
@@ -35,6 +37,7 @@ h1:hover{
     text-shadow: 0px 0.2vw 1px rgb(236, 83, 96) ;
 
 }
+/* Play button */
 #start-btn{
     font-size: 4vw;
     padding: 1vh 2vw;
@@ -57,6 +60,7 @@ h1:hover{
     margin: 8vh  1.5vw;
     font-weight: bolder;
 }
+/* Instuction button */
 #instructions{
     font-size: 5vw;
     padding: 1.5vh 2vw;
@@ -79,6 +83,7 @@ h1:hover{
     transition: 2sec;
 
 }
+/* my footer inro */
 footer {
     text-align: center;
     padding: 0.1em 0.2vw;
@@ -94,11 +99,13 @@ footer {
     border-radius: 15px;
     opacity: 0.5;
 }
+/* heart used in footer */
 #hearts{
     color: red;
     font-size: 1.5vw
     
 }
+/* css for forms */
 #name, #names{
     font-size: 1.5vw;
     padding: 1vh 2vw;
@@ -111,6 +118,7 @@ footer {
     font-weight: 900;
     box-shadow: inset 0.3vw 0.1vw 0.3vw 0.1rem rgba(44, 41, 41, 0.5);
 }
+/* submit button */
 #n{
     font-size: 1.5vw;
     padding: 1vh 2vw;
@@ -129,6 +137,7 @@ footer {
   cursor: pointer;
 
 }
+/* describing styles for less than 1600px, 1400 and 700px width */
 @media screen and (max-width: 1600px) {
   body{
       height: 100vh;
@@ -150,6 +159,7 @@ footer {
     box-shadow: inset 0.3vw 0.1vw 0.3vw 0.1rem rgba(44, 41, 41, 0.5);
   }
 }
+
 @media screen and (max-width: 1400px) {
     body{
         height: 100vh;
@@ -163,6 +173,7 @@ footer {
     }
     
 }
+
 @media screen and (max-width: 700px) {
     body{
         height: 100vh;
