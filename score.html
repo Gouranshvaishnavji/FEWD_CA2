@@ -18,6 +18,7 @@
         Your browser does not support the audio element.
     </audio>
     <script>
+        // using DOMcontentloaded so that score will be rready to use
             document.addEventListener('DOMContentLoaded', function () {
             // Retrieve the score from local storage
             var finalScore = localStorage.getItem('finalScore');
@@ -31,7 +32,7 @@
         });
         var userName = localStorage.getItem("user_name");
          
-        // Display the name on the page
+        // Display the name on the page with comment regarding win or loose
         if (localStorage.getItem('finalScore') > 3){
             document.body.innerHTML += "<p>You have good reflexes, " + userName + "!</p>";
             localStorage.removeItem('user_name');
